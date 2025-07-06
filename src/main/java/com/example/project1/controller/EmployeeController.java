@@ -54,4 +54,6 @@ public class EmployeeController {
         employeeService.deleteEmployeeById(employeeId);
         return new ResponseEntity<>("Employee Record Deleted Successfully", HttpStatus.OK);
     }
-}
+}// added some comments to the code
+// This is the EmployeeController class that handles HTTP requests related to Employee operations.
+// It uses Spring's RestController and RequestMapping annotations to define the base URL for the employee endpoints.
